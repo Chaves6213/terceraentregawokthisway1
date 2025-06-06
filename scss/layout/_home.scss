@@ -1,15 +1,28 @@
 /* Layout Home*/
 .hero {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
+  width: 100%;
 
   img {
-    width: 100%;        
-    height: 250px;      
+    width: 100%;
+    height: 250px;   
     object-fit: cover;  
     display: block;
   }
 }
+
 main {
   animation: fadeIn 2s ease-in-out;
+}
+.platos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img-platos {
+  width: 30%;
+  height: auto;
 }
