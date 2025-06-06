@@ -1,0 +1,26 @@
+/* Layout Delivery*/
+.apps {
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.app {
+  text-align: center;
+}
+
+.app img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.app p {
+  color: $color-amarillo;
+  margin-top: 0.5rem;
+  font-style: italic;
+}

@@ -1,0 +1,23 @@
+/*Layout Menú*/
+.item-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+
+.item-menu h2 {
+  color: $color-rojo;
+  text-shadow: 2px 2px $color-negro;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.item-menu p {
+  color: $color-celeste;
+  text-shadow: 1px 1px $color-negro;
+  font-size: 1.2rem;
+}

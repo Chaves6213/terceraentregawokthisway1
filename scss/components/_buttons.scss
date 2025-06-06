@@ -1,0 +1,12 @@
+/*Estilos de botones*/
+button {
+  background-color: $color-amarillo;
+  color: $color-negro;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+

@@ -1,0 +1,14 @@
+/*Animaciones*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// Efecto hover suave
+@mixin hoverEffect {
+  transition: all 0.3s ease;
+}

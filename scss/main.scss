@@ -1,0 +1,17 @@
+/*Temas generales*/
+@import 'themes/variables';
+@import 'themes/mixins';
+@import 'themes/animations';
+/* Base */
+@import 'base/reset';
+@import 'base/typography';
+/* Componentes*/
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/buttons';
+/* Layout y páginas*/
+@import 'layout/home';
+@import 'layout/delivery';
+@import 'layout/menu';
+@import 'layout/reservas';
+@import 'layout/takeaway';

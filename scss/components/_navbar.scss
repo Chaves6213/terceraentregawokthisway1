@@ -1,0 +1,27 @@
+nav {
+  background-color: $color-negro;
+  padding: 1rem;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+
+    li {
+      margin: 0 1rem;
+
+      a {
+        color: $color-amarillo;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-size: 1.2rem;
+
+        &:hover {
+          color: $color-amarillo;
+        }
+      }
+    }
+  }
+}

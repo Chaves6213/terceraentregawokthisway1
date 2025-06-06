@@ -1,0 +1,15 @@
+/* Layout Home*/
+.hero {
+  padding: 0;
+  margin: 0 auto;
+
+  img {
+    width: 100%;        
+    height: 250px;      
+    object-fit: cover;  
+    display: block;
+  }
+}
+main {
+  animation: fadeIn 2s ease-in-out;
+}

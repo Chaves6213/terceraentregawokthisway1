@@ -1,0 +1,21 @@
+/* Estilos de tipografía*/
+h1, h2, h3, h4, {
+  font-family: 'Bangers', system-ui;
+  color: $color-rojo;
+  text-shadow: 2px 2px $color-negro;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size:3rem;
+}
+h2,{
+  font-size:2rem;
+}
+
+p {
+  font-family: 'Bangers', system-ui; 
+  color: $color-celeste;
+  text-shadow: 1px 1px $color-negro;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}

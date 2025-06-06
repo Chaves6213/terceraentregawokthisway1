@@ -1,0 +1,18 @@
+/* Layout Reservas*/
+.reserva {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  max-width: 100%;
+}
+
+.formulario-reserva {
+  max-width: 400px;
+}
+
+.mapa {
+  text-align: left;
+  margin-left: 1rem;
+}

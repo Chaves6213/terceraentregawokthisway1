@@ -1,0 +1,15 @@
+/*Layout Takeaway*/
+.img-platos {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+}
+
+@include responsive(tablet) {
+  .platos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
