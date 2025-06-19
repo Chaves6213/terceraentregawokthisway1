@@ -1,4 +1,4 @@
-/* Layout Home*/
+/* Layout Home */
 .hero {
   padding: 0;
   margin: 0;
@@ -6,8 +6,8 @@
 
   img {
     width: 100%;
-    height: 250px;   
-    object-fit: cover;  
+    height: 250px;
+    object-fit: cover;
     display: block;
   }
 }
@@ -15,14 +15,29 @@
 main {
   animation: fadeIn 2s ease-in-out;
 }
+
 .platos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .img-platos {
   width: 30%;
   height: auto;
+
+  @include responsive(tablet) {
+    width: 80%;
+  }
+}
+
+/*Mejora de títulos en mobile*/
+@include responsive(tablet) {
+  h1, h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
 }

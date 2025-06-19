@@ -24,3 +24,19 @@
   margin-top: 0.5rem;
   font-style: italic;
 }
+@include responsive(tablet) {
+  .apps {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .app img {
+    max-width: 80%;
+  }
+
+  .app p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}

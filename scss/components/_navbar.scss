@@ -21,6 +21,12 @@ nav {
         &:hover {
           color: $color-amarillo;
         }
+
+        &.activo {
+          color: $color-rojo;
+          font-weight: bold;
+          text-decoration: underline;
+        }
       }
     }
   }

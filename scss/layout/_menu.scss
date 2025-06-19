@@ -21,3 +21,24 @@
   text-shadow: 1px 1px $color-negro;
   font-size: 1.2rem;
 }
+@include responsive(tablet) {
+  .item-menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .item-menu img {
+    max-width: 80%;
+  }
+
+  .item-menu h2 {
+    font-size: 2rem;
+  }
+
+  .item-menu p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
